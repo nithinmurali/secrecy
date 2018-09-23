@@ -10,8 +10,8 @@ apt {
 }
 
 dependencies {
-    compile project(':libraries:aFileChooser')
-    compile project(':libraries:payme')
+    compile project(path:':libraries:aFileChooser')
+    compile project(path:':libraries:payme')
 
 
     compile 'commons-io:commons-io:2.4'
@@ -41,4 +41,5 @@ android {
     }
 
 
+    buildToolsVersion '27.0.3'
 }
